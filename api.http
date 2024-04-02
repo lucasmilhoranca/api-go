@@ -1,0 +1,35 @@
+GET http://localhost:9000/
+
+###
+
+GET http://localhost:9000/1
+
+###
+
+POST http://localhost:9000/
+Content-Type: "application/json"
+
+{
+    "title": "Meu primeiro todo",
+    "description": "aqui vai a descrição..."
+}
+
+###
+
+PUT http://localhost:9000/3
+Content-Type: "application/json"
+
+{
+    "title": "Meu terceiro todo",
+    "description": "aqui vai a descrição..."
+}
+
+###
+
+DELETE  http://localhost:9000/3
+Content-Type: "application/json"
+
+{
+    "title": "Meu segundo todo",
+    "description": "aqui vai a descrição..."
+}
